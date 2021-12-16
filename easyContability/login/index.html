@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="http://localhost/easyContability/assets/favicon.png" type="image/x-icon">
+	<title>
+		Easy Contability
+	</title>
+</head>
+
+<body>
+	<div id="container" class="container">
+		<!-- FORM SECTION -->
+		<div class="row">
+			<!-- SIGN UP -->
+			<div class="col align-items-center flex-col sign-up">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-up">
+						<div class="input-group">
+							<i class='bx bxs-user'></i>
+							<input type="text" placeholder="Nome">
+						</div>
+						<div class="input-group">
+							<i class='bx bx-mail-send'></i>
+							<input type="email" placeholder="Email">
+						</div>
+						<div class="input-group">
+							<i class='bx bx-mail-send'></i>
+							<input type="email" placeholder="CPF">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Senha">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Confirmar senha">
+						</div>
+						<button>
+							Cadastrar
+						</button>
+						<p>
+							<span>
+								Possui conta?
+							</span>
+							<b onclick="toggle()" class="pointer">
+								Entre aqui
+							</b>
+						</p>
+					</div>
+				</div>
+				<div class="form-wrapper">
+					<div class="social-list align-items-center sign-up">
+						<div class="align-items-center facebook-bg">
+							<i class='bx bxl-facebook'></i>
+						</div>
+						<div class="align-items-center google-bg">
+							<i class='bx bxl-google'></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END SIGN UP -->
+			<!-- SIGN IN -->
+			<div class="col align-items-center flex-col sign-in">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-in">
+						<div class="input-group">
+							<i class='bx bxs-user'></i>
+							<input type="text" placeholder="Email">
+						</div>
+						<div class="input-group">
+							<i class='bx bxs-lock-alt'></i>
+							<input type="password" placeholder="Senha">
+						</div>
+						<!-- <a class="buttonn" href="http://localhost/easyContability/dashboard/index2.php#painel">
+							Entrar
+						</a> -->
+						<button onclick="entrar()">
+							Entrar
+						</button>
+						<p>
+							<b>
+								Esqueceu a senha?
+							</b>
+						</p>
+						<p>
+							<span>
+								Não possui uma conta?
+							</span>
+							<b onclick="toggle()" class="pointer cadastreSe">
+								Cadastre-se aqui
+							</b>
+						</p>
+					</div>
+				</div>
+				<div class="form-wrapper">
+					<div class="social-list align-items-center sign-in">
+						<div class="align-items-center facebook-bg">
+							<i class='bx bxl-facebook'></i>
+						</div>
+						<div class="align-items-center google-bg">
+							<i class="bx bxl-google"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END SIGN IN -->
+		</div>
+		<!-- END FORM SECTION -->
+		<!-- CONTENT SECTION -->
+		<div class="row content-row">
+			<!-- SIGN IN CONTENT -->
+			<div class="col align-items-center flex-col">
+				<div class="text sign-in">
+					<h2>
+						Bem vindo de volta!
+					</h2>
+					<p>
+						A melhor maneira de contabilizar seu negócio está a um click de distância! Faça seu login e volte a utilizar cada ferramenta!
+					</p>
+				</div>
+				<div class="img sign-in">
+					<img src="assets/Devices-rafiki.svg" alt="welcome">
+				</div>
+			</div>
+			<!-- END SIGN IN CONTENT -->
+			<!-- SIGN UP CONTENT -->
+			<div class="col align-items-center flex-col">
+				<div class="img sign-up">
+					<img src="http://localhost/easyContability/assets/register.svg" alt="welcome">
+				</div>
+				<div class="text sign-up">
+					<h2>
+						Junte-se a nós
+					</h2>
+					<p>
+						Cadastre-se agora e começe sua contabilidade de maneira rápida e prática. Uma contabilidade easy a um click de distância!
+					</p>
+				</div>
+			</div>
+			<!-- END SIGN UP CONTENT -->
+		</div>
+		<!-- END CONTENT SECTION -->
+	</div>
+
+	<script src="index.js"></script>
+</body>
+
+</html>
